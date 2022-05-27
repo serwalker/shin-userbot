@@ -24,7 +24,7 @@
 
 ## Group Support:
 
-   <a href="https://t.me/skyzusupport"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/shinsuport"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
 
 
 ## Stay Support 🚀
@@ -36,5 +36,6 @@
 *   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
 *   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
 *   [Skyzu](https://github.com/Skyzu/skyzu-userbot)   skyzu-userbot
+*   [Shin](https://github.com/serwalker/shin-Userbot)   shin-userbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
 
