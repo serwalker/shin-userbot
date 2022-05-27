@@ -21,7 +21,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = (
     str(UPSTREAM_REPO_URL)
     if UPSTREAM_REPO_URL
-    else "https://github.com/Askarbot/Skyzuu-Userbot"
+    else "https://github.com/serwalker/shin-Userbot"
 )
 # ============================================
 
@@ -63,7 +63,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """For .shutdown command, shut the bot down."""
-    await event.edit("**Mematikan Skyzu-Userbot....**")
+    await event.edit("**Mematikan shin-Userbot....**")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -75,7 +75,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("**Restarting Skyzu-Userbot...**")
+    await event.edit("**Restarting shin-Userbot...**")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡ Skyzu-UserBot Repo](https://github.com/Askarbot/Skyzuu-Userbot/blob/skyzu-userBot/README.md)"
+        "\n[💥 shin-UserBot Repo](https://github.com/serwalker/shin-Userbot/blob/skyzu-userBot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)"
     )
@@ -117,11 +117,11 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
-        "𝗥𝗲𝗽𝗼 🇮🇩\n"
-        "╰⎆ [𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​](https://github.com/Skyzu/skyzu-userbot)\n"
-        "❏ **Oᴡɴᴇʀ​** ⎆ [Skyzu](t.me/skyzu)\n"
-        "❏ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/skyzusupport)\n"
+        "**𝗨𝗦𝗘𝗥𝗕𝗢𝗧 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠**\n"
+        "𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 💥\n"
+        "╰⎆ [𝐒𝐇𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://github.com/serwalker/shin-userbot)\n"
+        "❏ **Oᴡɴᴇʀ​** ⎆ [shin](t.me/baangggsatt)\n"
+        "❏ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/shinsuport)\n"
     )
 
 
