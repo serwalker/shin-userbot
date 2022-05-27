@@ -7,10 +7,10 @@ from userbot import DEVS
 from userbot.events import register
 
 cping = [
-    "**Hadir bang** `𓆩79.08𓆪` ",
-    "**Hadir kak** `𓆩99.65𓆪` ",
-    "**Hadir om** `𓆩76.89𓆪` ",
-    "**Hadir tuan shin** `𓆩72.69𓆪` ",
+    "**Hadir bang shin** `𓆩79.08𓆪` ",
+    "**Bang shin ganteng** `𓆩99.65𓆪` ",
+    "**bang shin mau ucerbot 😖** `𓆩76.89𓆪` ",
+    "**sungkem dulu sama tuan shin** `𓆩72.69𓆪` ",
 ]
 
 
