@@ -38,7 +38,7 @@ async def help(event):
             "**💥𝐒𝐇𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​💥**\n\n"
             f"**◉ Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◉ Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
             "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
-            f"◉ {string}◉\n\n✐ **ɴᴏᴛᴇꜱ :**  `.help animasi`\n✐  support : @hinsuport"
+            f"◉ {string}◉\n\n✐ **ɴᴏᴛᴇꜱ :**  `.help animasi`\n✐  support : @shinsuport"
         )
         await asyncio.sleep(1000)
         await event.delete()
