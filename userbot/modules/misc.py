@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[💥 shin-UserBot Repo](https://github.com/serwalker/shin-Userbot/blob/skyzu-userBot/README.md)"
+        "\n[💥 shin-userBot Repo](https://github.com/serwalker/shin-userbot/blob/shin-userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)"
     )
@@ -112,17 +112,19 @@ async def repeat(rep):
 
     await rep.edit(replyText)
 
-
-@register(outgoing=True, pattern="^.repo$")
+@register(pattern="repo$")
 async def repo_is_here(wannasee):
-    """For .repo command, just returns the repo URL."""
-    await wannasee.edit(
-        "**𝗨𝗦𝗘𝗥𝗕𝗢𝗧 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠**\n"
-        "𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 💥\n"
-        "╰⎆ [𝐒𝐇𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://github.com/serwalker/shin-userbot)\n"
-        "❏ **Oᴡɴᴇʀ​** ⎆ [shin](t.me/baangggsatt)\n"
-        "❏ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/shinsuport)\n"
-    )
+    """ For .repo command, just returns the repo URL. """
+    await edit_or_reply(wannasee,
+                        "Hey, I am using 💥𝚂𝙷𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃💥 \n"
+                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+                        "➣ Repo Userbot : [ɢɪᴛʜᴜʙ](https://github.com/serwalker/shin-userbot)\n"
+                        "➣ Owner Bot : [𝐒𝐇𝐈𝐍](t.me/baangggsatt)\n"
+                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+                        "➣ Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/shinsuport)\n"
+                        "➣ Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/aboutmegashine)\n"
+                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+                        )
 
 
 @register(outgoing=True, pattern="^.raw$")
