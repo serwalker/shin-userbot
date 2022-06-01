@@ -112,10 +112,10 @@ async def repeat(rep):
 
     await rep.edit(replyText)
 
-@register(outgoing=True, pattern="^.repo$")
+@register(pattern="repo$")
 async def repo_is_here(wannasee):
-    """ For .repo command, just returns the repo URL. """
-    await edit_or_reply(wannasee,
+    """For .repo command, just returns the repo URL."""
+    await wannasee .edit(
                         "Hey, I am using 💥𝚂𝙷𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃💥 \n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
                         "➣ Repo Userbot : [ɢɪᴛʜᴜʙ](https://github.com/serwalker/shin-userbot)\n"
