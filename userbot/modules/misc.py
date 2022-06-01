@@ -112,7 +112,7 @@ async def repeat(rep):
 
     await rep.edit(replyText)
 
-@register(pattern="repo$")
+@register(outgoing=True, pattern="^.repo$")
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await edit_or_reply(wannasee,
