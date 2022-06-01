@@ -270,7 +270,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ :`[Sƙȥυ](t.me/baangggsatt)             ㅤ \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ :`[ᴛᴜᴀɴ sʜɪɴ](t.me/baangggsatt)             ㅤ \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ. :`Ubuntu 20.10            \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__}                ㅤㅤ  \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ. :`v.{python_version()} ㅤㅤ\n"
@@ -298,20 +298,34 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(pattern="(?:alive|on)\\s?(.)?")
+@register(pattern="(?:alive|on)\s?(.)?")
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
+    await alive.edit("__Sedang Memuat.__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat.__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("💥")
+    await asyncio.sleep(2)
     output = (
-        f"• Master : [{user.first_name}](tg://user?id={user.id}) \n"
-        f"• Username : @{user.username} \n"
-        f"• Telethon Version : {version.version} \n"
-        f"• Python Version : {python_version()} \n"
-        f"• Pytgcalls Version : {pytgcalls.version} \n"
-        f"• Bot Version : {BOT_VER} \n"
-        f"• Modules : {len(modules)} Modules \n"
-        f"  [𝗚𝗿𝗼𝘂𝗽𝘀](https://t.me/shinsuport/) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/aboutmegashine) | [𝗚𝗶𝘁𝗵𝘂𝗯](https://github.com/serwalker/shin-userbot) "
+        f"╭✠╼━━━━━━━━━━━━━━━━✠╮\n"
+        f"┃✧ **Name     :** {DEFAULTUSER} \n"
+        f"┃✧ **Username :** @{user.username} \n"
+        f"┃✧ **Telethon :** Ver {version.__version__} \n"
+        f"┃✧ **Python   :** Ver {python_version()} \n"
+        f"┃✧ **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
+        f"┃✧ **Bot Ver  :** {BOT_VER} \n"
+        f"┃✧ **Modules  :** {len(modules)} Modules \n"
+        f"┃✧ **GitHub   :** [UserBot](https://github.com/serwalker/shin-userbot) \n"
+        f"┃✧ **Owner    :** [𝗧𝗨𝗔𝗡 𝗦𝗛𝗜𝗡](https://t.me/baangggsatt) \n"
+        f"┃✧ **support  :** [𝗚𝗿𝗼𝘂𝗽](https://t.me/shinsuport) \n"
+        f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
     )
+
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -364,7 +378,7 @@ CMD_HELP.update(
 )
 CMD_HELP.update(
     {
-        "alive": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alive` or `.on` or `skyzu`"
+        "alive": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alive` or `.on` or `shin`"
         "\n↳ : To see whether your bot is working or not."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.aliveu` <text>"
         "\n↳ : Changes the 'user' in alive to the text you want."
