@@ -321,7 +321,7 @@ async def redis(alive):
         f"┃✧ **Bot Ver  :** {BOT_VER} \n"
         f"┃✧ **Modules  :** {len(modules)} Modules \n"
         f"┃✧ **GitHub   :** [UserBot](https://github.com/serwalker/shin-userbot) \n"
-        f"┃✧ **Owner    :** [Skyzu](https://t.me/baangggsatt) \n"
+        f"┃✧ **Owner    :** [TUAN SHIN](https://t.me/baangggsatt) \n"
         f"┃✧ **support  :** [groups](https://t.me/shinsuport) \n"
         f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
     )
