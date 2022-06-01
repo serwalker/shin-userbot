@@ -298,32 +298,19 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
+@register(pattern="(?:alive|on)\\s?(.)?")
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat...__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat...__")
-    await alive.edit("💥")
-    await asyncio.sleep(2)
     output = (
-        f"╭✠╼━━━━━━━━━━━━━━━━✠╮\n"
-        f"┃✧ **Name     :** {DEFAULTUSER} \n"
-        f"┃✧ **Username :** @{user.username} \n"
-        f"┃✧ **Telethon :** Ver {version.__version__} \n"
-        f"┃✧ **Python   :** Ver {python_version()} \n"
-        f"┃✧ **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
-        f"┃✧ **Bot Ver  :** {BOT_VER} \n"
-        f"┃✧ **Modules  :** {len(modules)} Modules \n"
-        f"┃✧ **GitHub   :** [UserBot](https://github.com/serwalker/shin-userbot) \n"
-        f"┃✧ **Owner    :** [TUAN SHIN](https://t.me/baangggsatt) \n"
-        f"┃✧ **support  :** [groups](https://t.me/shinsuport) \n"
-        f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
+        f"• Master : [{user.first_name}](tg://user?id={user.id}) \n"
+        f"• Username : @{user.username} \n"
+        f"• Telethon Version : {version.version} \n"
+        f"• Python Version : {python_version()} \n"
+        f"• Pytgcalls Version : {pytgcalls.version} \n"
+        f"• Bot Version : {BOT_VER} \n"
+        f"• Modules : {len(modules)} Modules \n"
+        f"  [𝗚𝗿𝗼𝘂𝗽𝘀](https://t.me/shinsuport/) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/aboutmegashine) | [𝗚𝗶𝘁𝗵𝘂𝗯](https://github.com/serwalker/shin-userbot) "
     )
     if ALIVE_LOGO:
         try:
