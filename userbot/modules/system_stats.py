@@ -227,7 +227,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:skyzualive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:shinalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -298,7 +298,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(pattern="(?:alive|on)\s?(.)?")
+@register(pattern="(?:alive|on)\\s?(.)?")
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
