@@ -119,7 +119,7 @@ async def repo_is_here(wannasee):
         "𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼\n"
         "𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 💥\n"
         "╰⎆ [sʜɪɴ-ᴜsᴇʀʙᴏᴛ​](https://github.com/serwalker/shin-userbot)\n"
-        "❏ Oᴡɴᴇʀ​ ⎆ [baangggsatt](t.me/Shin)\n"
+        "❏ Oᴡɴᴇʀ​ ⎆ [SHIN](t.me/baangggsatt)\n"
         "❏ Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/shinsuport)\n"
     )
 
