@@ -311,15 +311,20 @@ async def redis(alive):
     await alive.edit("Sedang Memuat...")
     await alive.edit("💥")
     await asyncio.sleep(2)
-    output = ("
-        f"• Master : [{user.first_name}](tg://user?id={user.id}) \n"
-        f"• Username : @{user.username} \n"
-        f"• Telethon Version : {version.version} \n"
-        f"• Python Version : {python_version()} \n"
-        f"• Pytgcalls Version : {pytgcalls.version} \n"
-        f"• Bot Version : {BOT_VER} \n"
-        f"• Modules : {len(modules)} Modules \n"
-        f"  [𝗚𝗿𝗼𝘂𝗽𝘀](https://t.me/shinsuport/) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/aboutmegashine) | [𝗚𝗶𝘁𝗵𝘂𝗯](https://github.com/serwalker/shin-userbot) "
+    output = (
+
+        f"╭✠╼━━━━━━━━━━━━━━━━✠╮\n"
+        f"┃✧ Name     : {DEFAULTUSER} \n"
+        f"┃✧ Username : @{user.username} \n"
+        f"┃✧ Telethon : Ver {version.version} \n"
+        f"┃✧ Python   : Ver {python_version()} \n"
+        f"┃✧ Branch   : {UPSTREAM_REPO_BRANCH} \n"
+        f"┃✧ Bot Ver  : {BOT_VER} \n"
+        f"┃✧ Modules  : {len(modules)} Modules \n"
+        f"┃✧ GitHub   : [UserBot](https://github.com/serwalker/shin-userbot) \n"
+        f"┃✧ Owner    : [TUAN SHIN](https://t.me/baangggsatt) \n"
+        f"┃✧ support  : [groups](https://t.me/shinsuport) \n"
+        f"╰✠╼━━━━━━━━━━━━━━━━✠╯
     )
 
     if ALIVE_LOGO:
