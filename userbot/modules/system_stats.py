@@ -298,31 +298,31 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(pattern="(?:alive|on)\\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat...__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("Sedang Memuat.")
+    await alive.edit("Sedang Memuat..")
+    await alive.edit("Sedang Memuat.")
+    await alive.edit("Sedang Memuat..")
+    await alive.edit("Sedang Memuat...")
+    await alive.edit("Sedang Memuat..")
+    await alive.edit("Sedang Memuat...")
     await alive.edit("💥")
     await asyncio.sleep(2)
     output = (
         f"╭✠╼━━━━━━━━━━━━━━━━✠╮\n"
-        f"┃✧ **Name     :** {DEFAULTUSER} \n"
-        f"┃✧ **Username :** @{user.username} \n"
-        f"┃✧ **Telethon :** Ver {version.__version__} \n"
-        f"┃✧ **Python   :** Ver {python_version()} \n"
-        f"┃✧ **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
-        f"┃✧ **Bot Ver  :** {BOT_VER} \n"
-        f"┃✧ **Modules  :** {len(modules)} Modules \n"
-        f"┃✧ **GitHub   :** [UserBot](https://github.com/serwalker/shin-userbot) \n"
-        f"┃✧ **Owner    :** [𝗧𝗨𝗔𝗡 𝗦𝗛𝗜𝗡](https://t.me/baangggsatt) \n"
-        f"┃✧ **support  :** [𝗚𝗿𝗼𝘂𝗽](https://t.me/shinsuport) \n"
+        f"┃✧ Name     : {DEFAULTUSER} \n"
+        f"┃✧ Username : @{user.username} \n"
+        f"┃✧ Telethon : Ver {version.version} \n"
+        f"┃✧ Python   : Ver {python_version()} \n"
+        f"┃✧ Branch   : {UPSTREAM_REPO_BRANCH} \n"
+        f"┃✧ Bot Ver  : {BOT_VER} \n"
+        f"┃✧ Modules  : {len(modules)} Modules \n"
+        f"┃✧ GitHub   : [UserBot](https://github.com/serwalker/shin-userbot) \n"
+        f"┃✧ Owner    : [Shin](https://t.me/baangggsatt) \n"
+        f"┃✧ support  : [groups](https://t.me/shinsuport) \n"
         f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
     )
 
