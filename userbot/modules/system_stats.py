@@ -311,7 +311,7 @@ async def redis(alive):
     await alive.edit("Sedang Memuat...")
     await alive.edit("💥")
     await asyncio.sleep(2)
-    output = (
+    output = ("
         f"• Master : [{user.first_name}](tg://user?id={user.id}) \n"
         f"• Username : @{user.username} \n"
         f"• Telethon Version : {version.version} \n"
