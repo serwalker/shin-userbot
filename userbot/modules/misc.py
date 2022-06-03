@@ -112,20 +112,16 @@ async def repeat(rep):
 
     await rep.edit(replyText)
 
-@register(pattern="repo$")
+@register(outgoing=True, pattern="^.repo$")
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
-    await wannasee .edit(
-                        "Hey, I am using 💥𝚂𝙷𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃💥 \n"
-                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ Repo Userbot : [ɢɪᴛʜᴜʙ](https://github.com/serwalker/shin-userbot)\n"
-                        "➣ Owner Bot : [𝐒𝐇𝐈𝐍](t.me/baangggsatt)\n"
-                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ Support : [sᴜᴘᴘᴏʀᴛ](https://t.me/shinsuport)\n"
-                        "➣ Channel : [ᴄʜᴀɴɴᴇʟ](https://t.me/aboutmegashine)\n"
-                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        )
-
+    await wannasee.edit(
+        "𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼\n"
+        "𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 💥\n"
+        "╰⎆ [sʜɪɴ-ᴜsᴇʀʙᴏᴛ​](https://github.com/serwalker/shin-userbot)\n"
+        "❏ Oᴡɴᴇʀ​ ⎆ [baangggsatt](t.me/Shin)\n"
+        "❏ Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/shinsuport)\n"
+    )
 
 @register(outgoing=True, pattern="^.raw$")
 async def raw(event):
