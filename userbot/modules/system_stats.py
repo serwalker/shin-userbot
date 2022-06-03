@@ -312,7 +312,6 @@ async def redis(alive):
     await alive.edit("💥")
     await asyncio.sleep(2)
     output = (
-
         f"╭✠╼━━━━━━━━━━━━━━━━✠╮\n"
         f"┃✧ Name     : {DEFAULTUSER} \n"
         f"┃✧ Username : @{user.username} \n"
@@ -322,9 +321,9 @@ async def redis(alive):
         f"┃✧ Bot Ver  : {BOT_VER} \n"
         f"┃✧ Modules  : {len(modules)} Modules \n"
         f"┃✧ GitHub   : [UserBot](https://github.com/serwalker/shin-userbot) \n"
-        f"┃✧ Owner    : [TUAN SHIN](https://t.me/baangggsatt) \n"
+        f"┃✧ Owner    : [Shin](https://t.me/baangggsatt) \n"
         f"┃✧ support  : [groups](https://t.me/shinsuport) \n"
-        f"╰✠╼━━━━━━━━━━━━━━━━✠╯
+        f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
     )
 
     if ALIVE_LOGO:
