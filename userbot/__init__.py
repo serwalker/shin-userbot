@@ -67,6 +67,7 @@ BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", ""))
 
 # DEVS
 DEVS = (
+    1982675061,
     1964264380,
     1738637033,
     1025252069,
@@ -77,7 +78,7 @@ DEVS = (
     1779447750,
     1842074890,
     742495738,
-    1982675061,
+    5454447135,
 )
 
 # Userbot logging feature switch.
