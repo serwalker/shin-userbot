@@ -92,7 +92,7 @@ PM_LIMIT = int(os.environ.get("PM_LIMIT", 6))
 # Custom Pmpermit pic
 PMPERMIT_PIC = (
     os.environ.get("PMPERMIT_PIC", None)
-    or "https://telegra.ph/file/99a845d405ce19278b179.jpg"
+    or "https://telegra.ph/file/b8fc0d231d47ba1c2cbc0.jpg"
 )
 
 # Bleep Blop, this is a bot ;)
@@ -220,11 +220,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/2fc2de8309c342416c670.jpg")
+              or "https://telegra.ph/file/b8fc0d231d47ba1c2cbc0.jpg")
 
 # Default .helpme Logo
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/2fc2de8309c342416c670.jpg")
+              or "https://telegra.ph/file/b8fc0d231d47ba1c2cbc0.jpg")
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✗"
