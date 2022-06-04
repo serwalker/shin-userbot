@@ -19,11 +19,16 @@
   <img src="https://telegra.ph/file/2fc2de8309c342416c670.jpg">
 </p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## <p align="center">DEPLOY TO HEROKU</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/serwalker/shin-userbot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 ## Group Support:
