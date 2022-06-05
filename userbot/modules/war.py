@@ -58,6 +58,33 @@ async def typewriter(typew):
     await typew.edit("**LEMBEK NGENTOT🔥**")
 
 
+@register(outgoing=True, pattern=r"^\.sangge(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**WOII**")
+    sleep(1.5)
+    await typew.edit("**SAYANG AKU ANGGE💕💕**")
+    sleep(1.5)
+    await typew.edit("**AHHH AHH AHH**")
+    sleep(1.5)
+    await typew.edit("**PENGEN NENEN SM AYNG**")
+    sleep(1.5)
+    await typew.edit("**ARGHHH NENEN AYNGBGEDE BANGET😱**")
+    sleep(1.5)
+    await typew.edit("**AKU EMUT YAH UMM**")
+    sleep(1.5)
+    await typew.edit("**SRIUUPPP SRIUUPPP 🤤**")
+    sleep(1.5)
+    await typew.edit("**NENEN AYNG RASA VANILA🥵**")
+    sleep(1.5)
+    await typew.edit("**AKU JILATIN NENEN AYNG UGHHH**")
+    sleep(1.5)
+    await typew.edit("**AHHHH AHHHH AHHH AHHH AYNG**")
+    sleep(1.5)
+    await typew.edit("**CROT DI NENEN 🤤💧💧**")
+
+
+
 @register(outgoing=True, pattern=r"^\.pp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -152,6 +179,7 @@ CMD_HELP.update(
     {
         "war": "**Plugin : **`war`\
         \n\n  •  **Syntax :** `.jamet`\
+        \n\n  •  **Syntax :** `.sangge`\
         \n  •  **Function : **Menghina Jamet telegram\
         \n\n  •  **Syntax :** `.pp`\
         \n  •  **Function : **Menghina Jamet telegram yang ga pake foto profil\
