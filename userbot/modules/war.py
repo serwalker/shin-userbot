@@ -61,9 +61,9 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.sangge(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**WOII**")
+    await typew.edit("**SAYANG🥺**")
     sleep(1.5)
-    await typew.edit("**SAYANG AKU ANGGE💕💕**")
+    await typew.edit("**AKU ANGGE💕💕**")
     sleep(1.5)
     await typew.edit("**AHHH AHH AHH**")
     sleep(1.5)
@@ -81,7 +81,7 @@ async def typewriter(typew):
     sleep(1.5)
     await typew.edit("**AHHHH AHHHH AHHH AHHH AYNG**")
     sleep(1.5)
-    await typew.edit("**CROT DI NENEN 🤤💧💧**")
+    await typew.edit("**ENAK BANGGET AYANGG 🤤💧💧**")
 
 
 
@@ -97,6 +97,18 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA NGENTOT!!**")
+
+
+@register(outgoing=True, pattern=r"^\.halo(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**HAI ADA YANG KANGEN SM AKU GAK HEHEHEHEH**")
+
+
+@register(outgoing=True, pattern=r"^\.morning(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**MORNING KISSS NYA DULU DONG DI PC AVV JADI ANGGE🥵🥵**")
 
 
 @register(outgoing=True, pattern=r"^\.so(?: |$)(.*)")
@@ -184,6 +196,8 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `.pp`\
         \n  •  **Function : **Menghina Jamet telegram yang ga pake foto profil\
         \n\n  •  **Syntax :** `.dp`\
+        \n\n  •  **Syntax :** `.halo`\
+        \n\n  •  **Syntax :** `.morning`\
         \n  •  **Function : **Menghina Jamet muka hina!\
         \n\n  •  **Syntax :** `.so`\
         \n  •  **Function : **Ngeledek orang sokab\
@@ -207,7 +221,7 @@ CMD_HELP.update(
         \n  •  **Function : **Ngeledek anak haram\
         \n\n  •  **Syntax :** `.gcs`\
         \n  •  **Function : **Ngeledek gc sampah\
-        \n\n**Klo mau Req, kosa kata dari lu Hubungi @skyzu**\
+        \n\n**Klo mau Req, kosa kata dari lu Hubungi @baangggsatt**\
     "
     }
 )
