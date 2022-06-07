@@ -50,7 +50,7 @@ DEF_UNAPPROVED_MSG = (
     "**TOLONG JANGAN MELAKUKAN SPAM CHAT KEPADA MAJIKAN SAYA** \n"
     f"**YA KONTOL KARENA SAYA AKAN OTOMATIS MEMBLOKIR KAMU, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN KAMU** \n"
     "╔═════════════════════╗\n"
-    "│○›Support : @shinduport      \n"
+    "│○›Support : @shinsuport      \n"
     f"│○›ᗷy : 𝐒𝐇𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​           \n"
     "╚═════════════════════╝"
 )
@@ -258,7 +258,7 @@ async def approvepm(apprvpm):
         return await apprvpm.edit("`Oke Pesan Anda Sudah Diterima ツ`")
 
     await apprvpm.edit(
-        f"`Hai` [{name0}](tg://user?id={uid}) `Pesan Anda Sudah Diterima ya entot`"
+        f"`Hai` [{name0}](tg://user?id={uid}) `Pesan Anda Sudah Diterima`"
     )
     await apprvpm.delete(getmsg)
     await message.delete()
